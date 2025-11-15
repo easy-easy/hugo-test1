@@ -12,9 +12,10 @@ background_color_class = 'bg-navy'
 author = 'EASY'
 favicon = '/images/e-zuka-shoten-logo.png'
 # site_logo = '/images/e-zuka-shoten-logo.png'
+# custom_css = ['/css/custom.css']
 
 [[params.ananke_socials]]
-name = 'x'
+name = 'twitter'
 url  = 'https://x.com/e_a_s_y_'
 # [[params.ananke_socials]]
 # name = 'facebook'
