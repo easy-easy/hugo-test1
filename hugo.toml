@@ -1,5 +1,21 @@
 baseURL = 'https://example.org/'
 languageCode = 'ja'
 languageName = 'Japanese'
-title = '飯塚商店ドットコム'
+defaultContentLanguage = 'ja'
+hasCJKLanguage = true
+title = '業務とかそれ以外日誌'
 theme = 'ananke'
+
+[params]
+text_color = 'dark-gray'
+background_color_class = 'bg-navy'
+author = 'EASY'
+favicon = '/images/e-zuka-shoten-logo.png'
+site_logo = '/images/e-zuka-shoten-logo.png'
+
+[[params.ananke_socials]]
+name = 'x'
+url  = 'https://x.com/e_a_s_y_'
+# [[params.ananke_socials]]
+# name = 'facebook'
+# url  = 'https://www.facebook.com/takaya.tsukamoto.1'
