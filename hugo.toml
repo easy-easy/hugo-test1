@@ -11,7 +11,7 @@ text_color = 'dark-gray'
 background_color_class = 'bg-navy'
 author = 'EASY'
 favicon = '/images/e-zuka-shoten-logo.png'
-site_logo = '/images/e-zuka-shoten-logo.png'
+# site_logo = '/images/e-zuka-shoten-logo.png'
 
 [[params.ananke_socials]]
 name = 'x'
