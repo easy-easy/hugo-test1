@@ -1,0 +1,93 @@
+---
+title: "HTML形式のサンプル記事"
+date: 2025-11-15T10:00:00+09:00
+draft: false
+description: "HTMLで直接記述したコンテンツのサンプルです"
+tags: ["HTML", "サンプル"]
+categories: ["技術"]
+---
+
+<article>
+  <header>
+    <h2>HTMLで記述する記事</h2>
+    <p class="intro">このページはMarkdownではなく、HTMLで直接記述されています。</p>
+  </header>
+
+  <section>
+    <h3>HTMLを使用するメリット</h3>
+    <ul>
+      <li>より細かいレイアウト制御が可能</li>
+      <li>カスタムクラスやID属性を自由に設定できる</li>
+      <li>複雑なHTML構造を直接記述できる</li>
+      <li>JavaScriptとの連携がしやすい</li>
+    </ul>
+  </section>
+
+  <section>
+    <h3>装飾された要素の例</h3>
+    <div style="background-color: #f0f0f0; padding: 20px; border-left: 4px solid #0066cc; margin: 20px 0;">
+      <p><strong>注目!</strong> このボックスはインラインスタイルで装飾されています。</p>
+      <p>HTMLでは<code>&lt;style&gt;</code>属性を使って直接スタイリングできます。</p>
+    </div>
+  </section>
+
+  <section>
+    <h3>テーブルの例</h3>
+    <table border="1" cellpadding="10" cellspacing="0" style="border-collapse: collapse; width: 100%;">
+      <thead style="background-color: #0066cc; color: white;">
+        <tr>
+          <th>項目</th>
+          <th>Markdown</th>
+          <th>HTML</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>柔軟性</td>
+          <td>⭐⭐⭐</td>
+          <td>⭐⭐⭐⭐⭐</td>
+        </tr>
+        <tr style="background-color: #f9f9f9;">
+          <td>シンプルさ</td>
+          <td>⭐⭐⭐⭐⭐</td>
+          <td>⭐⭐</td>
+        </tr>
+        <tr>
+          <td>学習コスト</td>
+          <td>低</td>
+          <td>中</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section>
+    <h3>画像とキャプション</h3>
+    <figure style="margin: 20px 0; text-align: center;">
+      <img src="https://via.placeholder.com/600x300" alt="サンプル画像" style="max-width: 100%; height: auto; border-radius: 8px;">
+      <figcaption style="margin-top: 10px; color: #666; font-style: italic;">
+        図1: HTML の &lt;figure&gt; と &lt;figcaption&gt; 要素を使用した例
+      </figcaption>
+    </figure>
+  </section>
+
+  <section>
+    <h3>コードブロック</h3>
+    <pre style="background-color: #282c34; color: #abb2bf; padding: 15px; border-radius: 5px; overflow-x: auto;"><code>&lt;div class="example"&gt;
+  &lt;h1&gt;Hello, World!&lt;/h1&gt;
+  &lt;p&gt;これはHTMLのコードサンプルです。&lt;/p&gt;
+&lt;/div&gt;</code></pre>
+  </section>
+
+  <section>
+    <h3>引用とブロッククォート</h3>
+    <blockquote style="border-left: 4px solid #ddd; margin: 20px 0; padding-left: 20px; color: #555; font-style: italic;">
+      <p>「HTMLを直接使用することで、より表現力豊かなコンテンツを作成できます。」</p>
+      <footer style="text-align: right; margin-top: 10px;">— Web開発者</footer>
+    </blockquote>
+  </section>
+
+  <footer style="margin-top: 40px; padding-top: 20px; border-top: 1px solid #ddd;">
+    <p><small>この記事はHugoのHTMLコンテンツ機能を実演するために作成されました。</small></p>
+  </footer>
+</article>
